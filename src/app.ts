@@ -1,10 +1,10 @@
 import { createViewer } from './core/create-viewer';
-import { createGradientSphereScene } from './scenes/gradient-sphere';
+import { createPlatformScene } from './scenes/platform';
 
 export function startApp(canvas: HTMLCanvasElement) {
   const viewer = createViewer({ canvas });
 
-  viewer.mount(createGradientSphereScene());
+  viewer.mount(createPlatformScene());
   viewer.start();
 
   return viewer;
