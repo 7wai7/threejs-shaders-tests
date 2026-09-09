@@ -10,7 +10,7 @@ npm run dev
 npm run build
 ```
 
-The current shader demo lives in `src/scenes/gradient-sphere`.
+The current shader demo lives in `src/scenes/red-platform`.
 
 ## Structure
 
